@@ -4,9 +4,10 @@ settings:
     color: PURPLE
     style: SOLID
     title: '&5Magic Soup Effect'
+
   effects:
     - SPEED:2
-    - JUMP:2
+    - JUMP_BOOST:2
     - NIGHT_VISION:1
 
 permissions:
