@@ -1,0 +1,21 @@
+settings:
+  effect-duration: 300 # Duration in seconds
+  boss-bar:
+    color: PURPLE
+    style: SOLID
+    title: '&5Magic Soup Effect'
+  effects:
+    - SPEED:2
+    - JUMP:2
+    - NIGHT_VISION:1
+
+permissions:
+  use: magicsoup.use
+  create: magicsoup.create
+  admin: magicsoup.admin
+
+messages:
+  prefix: '&8[&5MagicSoup&8] &7'
+  no-permission: '%prefix%&cYou do not have permission to do this!'
+  given-soup: '%prefix%&aYou have received a Magic Soup!'
+  config-reloaded: '%prefix%&aConfiguration reloaded successfully!'

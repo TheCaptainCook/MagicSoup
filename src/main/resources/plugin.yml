@@ -1,0 +1,24 @@
+name: Magic Soup
+version: '1.0'
+main: github.com.thecaptaincook.magicSoup.MagicSoup
+api-version: '1.21'
+prefix: MS
+authors: [ The Captain Cook ]
+description: A plugin that adds magical soup with special effects
+website: https://github.com/thecaptaincook
+
+commands:
+  magicsoup:
+    description: Main command for MagicSoup plugin
+    usage: /<command> [give|reload|recipe] [player]
+    aliases: [msoup]
+permissions:
+  magicsoup.use:
+    description: Allows players to use the magical soup
+    default: true
+  magicsoup.create:
+    description: Allows players to craft the magical soup
+    default: true
+  magicsoup.admin:
+    description: Grants access to administrative commands
+    default: op
