@@ -1,7 +1,6 @@
 package github.com.thecaptaincook.magicSoup.listeners;
 
 import github.com.thecaptaincook.magicSoup.MagicSoup;
-import github.com.thecaptaincook.magicSoup.utils.BossBarManager;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -53,7 +52,7 @@ public class SoupConsumptionListener implements Listener {
         int duration = plugin.getConfig().getInt("settings.effect-duration") * 20; // Convert to ticks
         
         player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, duration, 1));
-        player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, duration, 1));
+        player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP_BOOST, duration, 1));
         player.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, duration, 0));
     }
 }
